@@ -72,10 +72,10 @@ h3 {
 .numero-historia {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    width: 240px;
-    margin-left: auto;
-    margin-bottom: 20px;
+    align-items: center;
+    width: 250px;
+    margin: 10px auto 20px;
+    text-align: center;
 }
 
 .numero-historia label {
@@ -92,9 +92,50 @@ h3 {
     border-radius: 6px;
     font-size: 15px;
     outline: none;
+    margin-top: 5px;
 }
 
 .numero-historia input:focus {
     border-color: #0d47a1;
     box-shadow: 0 0 5px #90caf9;
 }
+    
+    
+.datos-medico {
+    width: 100%;
+    text-align: center;
+    margin: 10px auto 20px;
+}
+
+.nombre-medico {
+    color: #526477;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.especialidad-medico {
+    color: #526477;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.hospital-medico {
+    color: #526477;
+    font-size: 15px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.registro-medico {
+    color: #526477;
+    font-size: 14px;
+    text-align: center;
+    margin: 5px 0 15px;
+}
+
+
+
+
