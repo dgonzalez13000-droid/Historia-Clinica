@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Historia Clínica</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <h1>MediControl</h1>
+    <h2>Registro de Historia Clínica</h2>
+
+    <form id="formulario">
+
+        
+
+<div class="numero-historia">
+    <label for="numeroHistoria">Número de Historia Clínica</label>
+    <input
+        type="text"
+        id="numeroHistoria"
+        name="numeroHistoria"
+        placeholder="HC-000001"
+        required
+    >
+</div>
+
+
+
+        <label>Nombre del paciente:</label>
+        <input type="text" id="nombre" required>
+
+        <label>Documento:</label>
+        <input type="text" id="documento" required>
+
+        <label>Teléfono:</label>
+<input type="tel" id="telefono" required>
+
+        <label>Fecha de nacimiento:</label>
+        <input type="date" id="fecha" required>
+
+        <label>Motivo de consulta:</label>
+        <textarea id="motivo" required></textarea>
+
+        <h3>Antecedentes médicos</h3>
+
+<label>Antecedentes personales:</label>
+<textarea id="personales"></textarea>
+
+<label>Antecedentes familiares:</label>
+<textarea id="familiares"></textarea>
+
+<label>Antecedentes quirúrgicos:</label>
+<textarea id="quirurgicos"></textarea>
+
+<label>Alergias:</label>
+<textarea id="alergias"></textarea>
+
+<label>Medicamentos actuales:</label>
+<textarea id="medicamentos"></textarea>
+
+        <button type="submit">
+            Guardar historia
+        </button>
+
+    </form>
+
+    <p id="mensaje"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
